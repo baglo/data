@@ -2,7 +2,7 @@
 
 $pfxPassword = Read-Host -Prompt "Enter PFX password, leave empty if no password used" -MaskInput
 
-$PfxFilePath = "C:\path-to-cert\cert.pfx"
+$PfxFilePath = "PLEASE INPUT FILE LOCATION" # example "C:\path-to-cert\cert.pfx"
 
 $pfxFile = Get-ChildItem $PfxFilePath
 
